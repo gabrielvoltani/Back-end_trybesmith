@@ -1,5 +1,5 @@
 import { ResultSetHeader, RowDataPacket } from 'mysql2';
-import Product from '../interfaces/product.interface';
+import { Product } from '../interfaces/product.interface';
 import connection from './connection';
 
 const newProduct = async (prodInfo: Product): Promise<Product> => {
