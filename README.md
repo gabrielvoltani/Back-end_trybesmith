@@ -1,5 +1,17 @@
-# Trybesmith
+# Back-end Trybesmith
 
-Neste projeto, eu criei uma loja de itens medievais no formato de uma API utilizando Typescript.
+This is a back-end application built using Node.js and Express.js to manage a database of tools. It is a RESTful API that allows users to perform CRUD operations (Create, Read, Update, Delete) on the tools stored in the database.
 
-Eu desenvolvi todas as camadas da aplicação (Models, Service e Controllers) em meu código e, por meio dessa aplicação, foi possível realizar as operações básicas que se pode fazer em um determinado banco de dados: Criação, Leitura, Atualização e Exclusão (ou CRUD, para as pessoas mais íntimas - Create, Read, Update e Delete).
+## Features
+
+- Users can create a new tool by providing a name, link, description, and a list of tags.
+- Users can search for tools by name or by tag.
+- Users can delete a tool.
+- Users can update a tool by providing a new name, link, description, or tags.
+- The application uses JWT (JSON Web Tokens) for authentication and authorization.
+
+## Technologies
+
+- Node.js
+- Express.js
+- JWT (JSON Web Tokens)
